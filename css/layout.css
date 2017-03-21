@@ -1,0 +1,64 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+div{
+  margin: 0px;
+  padding: 0px;
+}
+
+.maincol h1{
+  text-align: center;
+}
+.input_form
+.message {
+  padding: 5vw;
+}
+
+.input_field{
+  margin-bottom: 20px;
+}
+.input_field .label,
+.input_field .question{
+  display: inline-block;
+}
+/* mobile only */
+/* tablet and mobile */
+@media (max-width: 959px){
+  .maincol {
+    width: 100%;
+  }
+  .input_form {
+    padding: 5vw;
+  }
+  .input_field .label{
+    width: 30vw;
+  }
+}
+/* desktop */
+@media (min-width: 960px){
+  .maincol {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .input_form {
+    padding: 48px;
+  }
+  .input_field .label{
+    width: 288px;
+  }
+}
+
+/*** strictly MOBILE only ***/
+@media (max-width: 639px){
+  .not_mobile,
+  .not-mobile{
+    display:none;
+  }
+}
+@media (min-width: 640px) {
+  .mobile-only{
+    display: none;
+  }
+}

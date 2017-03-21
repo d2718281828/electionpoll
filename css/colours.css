@@ -1,0 +1,19 @@
+/*  */
+body {
+  background-color: #c0ffd4;
+  font-family: sans-serif;
+}
+a{
+  color: grey;
+}
+.maincol {
+  background-color: white;
+}
+.message.message_bad{
+  color: red;
+  background-color: #ffdddd;
+}
+.message.message_good{
+  color: green;
+  background-color: #ddffdd;
+}
